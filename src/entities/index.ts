@@ -8,7 +8,7 @@ const reducer = combineReducers({
 const store = configureStore({
     reducer: reducer,
     middleware(getDefaultMiddleware) {
-        // здесь подключается миддлвара для сокета
+        // здесь буду подключать миддлвара для сокета
         return getDefaultMiddleware().concat()
     },
 });
