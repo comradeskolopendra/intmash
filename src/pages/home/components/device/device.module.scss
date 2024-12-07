@@ -1,0 +1,32 @@
+.scheme {
+    display: grid;
+    margin-top: 25px;
+    position: relative;
+}
+
+.device {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 16px;
+    border: 1px solid var(--secondary);
+}
+
+.galvanic {
+    width: 100px;
+    height: auto;
+}
+
+.line {
+    width: 100px;
+    position: absolute;
+    left: 47px;
+    bottom: -100px;
+}
+
+.button {
+    position: absolute;
+    bottom: -300px;
+    justify-self: flex-end;
+    background-color: var(--danger);
+    color: white;
+}

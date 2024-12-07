@@ -1,0 +1,17 @@
+.group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: lightcyan;
+    border-radius: 16px;
+}
+
+.amount {
+    width: 18.2px;
+}
+
+.info {
+    display: grid;
+    gap: 15px;
+}

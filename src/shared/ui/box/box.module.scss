@@ -1,0 +1,27 @@
+.box {
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: black;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: white;
+}
+.danger {
+    background-color: var(--danger)
+}
+.warning {
+    background-color: var(--warning);
+}
+.secondary {
+    background-color: var(--secondary)!important;
+}
+.cold {
+    background-color: var(--warning-blue)
+}
+.success {
+    background-color: var(--success);
+    color: white;
+}

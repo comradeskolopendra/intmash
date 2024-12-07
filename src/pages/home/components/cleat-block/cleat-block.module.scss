@@ -1,0 +1,36 @@
+.cleatWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    position: absolute;
+    left: 50px;
+    bottom: -200px;
+}
+
+.cleatLine {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    height: 100px;
+    width: 2px;
+    background-color: var(--success);
+    rotate: -45deg;
+    z-index: -1;
+}
+
+.cleatActive {
+    rotate: 0deg;
+    left: 45px;
+    bottom: 5px;
+    background-color: var(--danger);
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.text {
+    text-align: center;
+}

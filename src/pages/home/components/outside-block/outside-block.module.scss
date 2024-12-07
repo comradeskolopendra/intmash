@@ -1,0 +1,15 @@
+.outsideWrapper {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: -250px;
+    left: 48px;
+}
+
+.invisibleArrow path {
+    display: none;
+}
+
+.text {
+    text-align: center;
+}
