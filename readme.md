@@ -1,8 +1,12 @@
 # Для запуска локально:
 
+Установка зависимостей:
+
 ```bash
 npm install
 ```
+
+Запуск на localhost:
 
 ```bash
 npm run dev
